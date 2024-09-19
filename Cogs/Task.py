@@ -20,6 +20,7 @@ class TaskCog(commands.Cog):
             await ctx.send(f'タスクが追加されました:タスクID:{taskid}')
         except ValueError:
             await ctx.send('無効なフォーマットです')
+            
     @commands.command()
     async def mytasks(self,ctx):
         userid = str(ctx.author.id)
