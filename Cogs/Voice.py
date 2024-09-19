@@ -4,8 +4,8 @@ from discord.ext import commands
 class VoiceNotificationCog(commands.Cog):
     def __init__(self,bot):
         self.bot = bot
-        self.sendroom_id = 1284492967675035689
-        self.voiceroom_ids = [743650805927772301]
+        self.sendroom_id = 00000000000000000
+        self.voiceroom_ids = [000000000000]
         print("check")
         
     @commands.Cog.listener()
